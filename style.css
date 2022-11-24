@@ -69,9 +69,11 @@ section button{
     }
     section button{
         font-size: 20px;
+        width: 20%;
     }
 
     #output{
         font-size: 20px;
+        width: 60%;
     }
 }
