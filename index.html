@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <section id="general-container">
+        <input type="text" id="output" onclick="buttclick()">
+
+        <section id="button-container">
+            <div>
+                <button id="butt(" onclick="bracket1()">(</button>
+                <button id="butt)" onclick="bracket2()">)</button>
+                <button id="butt%" onclick="modulus()">%</button>
+                <button id="butt**" onclick="add()">+</button>
+            </div>
+
+            <div>
+                <button id="butt-7" onclick="seven()">7</button>
+                <button id="butt-8" onclick="eight()">8</button>
+                <button id="butt-9" onclick="nine()">9</button>
+                <button id="butt/" onclick="divide()">/</button>
+            </div>
+
+            <div>
+                <button id="butt-4" onclick="four()">4</button>
+                <button id="butt-5" onclick="five()">5</button>
+                <button id="butt-6" onclick="six()">6</button>
+                <button id="butt*" onclick="multiply()">*</button>
+            </div>
+
+            <div>
+                <button id="butt-1" onclick="one()">1</button>
+                <button id="butt-2" onclick="two()">2</button>
+                <button id="butt-3" onclick="three()">3</button>
+                <button id="butt-" onclick="subtract()">-</button>
+               
+            </div>
+
+            <div>
+                <button id="butt-0" onclick="zero()">0</button>
+                <button id="butt=" onclick="equals()">=</button>
+                <button id="buttac" onclick="ac()">AC</button>
+                <button id="buttdel" onclick="del()">Del</button>
+            </div>
+        </section>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script src="java.js"></script>
+</body>
+</html>
