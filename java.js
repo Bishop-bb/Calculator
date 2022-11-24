@@ -57,10 +57,7 @@ function ac(){
 
 
 
-function bracket1(){
-    let output = document.getElementById('output').value += " ("
-    
-}
+
 
 function bracket2(){
     let output = document.getElementById('output').value += ") "
@@ -104,6 +101,14 @@ document.getElementById('output').value =  output + " = " + ans
 
 }
 
+function bracket1(){
+    let output = document.getElementById('output').value += " ("
+    // let brac = document.getElementById('output').value;
+    // let br = eval(brac *= )
+    // document.getElementById('output').value= br
+}
+
+
 function del(){
 let output = document.getElementById('output').value 
 let ans = output.slice(0,-1)
@@ -111,12 +116,11 @@ document.getElementById('output').value = ans
 }
 
 function modulus(){
-    let output = document.getElementById('output').value += " % "
-    
-
-   
+    let output = document.getElementById('output').value + " % "
+    let input = document.getElementById('output').value
+    let percent = eval(input / 100)
+    document.getElementById('output').value = output + " = " + percent 
    
 }
-
 
 
