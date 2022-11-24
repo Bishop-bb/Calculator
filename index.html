@@ -13,18 +13,14 @@
         <input type="text" id="output" onclick="buttclick()">
 
         <section id="button-container">
-            <div>
-                <button id="butt(" onclick="bracket1()">(</button>
-                <button id="butt)" onclick="bracket2()">)</button>
-                <button id="butt%" onclick="modulus()">%</button>
-                <button id="butt**" onclick="add()">+</button>
-            </div>
+            
 
             <div>
                 <button id="butt-7" onclick="seven()">7</button>
                 <button id="butt-8" onclick="eight()">8</button>
                 <button id="butt-9" onclick="nine()">9</button>
-                <button id="butt/" onclick="divide()">/</button>
+                
+                 <button id="butt-0" onclick="zero()">0</button>
             </div>
 
             <div>
@@ -43,10 +39,21 @@
             </div>
 
             <div>
-                <button id="butt-0" onclick="zero()">0</button>
+                <button id="butt/" onclick="divide()">/</button>
+                <button id="butt(" onclick="bracket1()">.</button>
+                <!-- <button id="butt)" onclick="bracket2()">)</button> -->
+                <button id="butt%" onclick="modulus()">%</button>
+                <button id="butt**" onclick="add()">+</button>
+               
+            </div>
+
+            <div id="last">
+                
+
                 <button id="butt=" onclick="equals()">=</button>
                 <button id="buttac" onclick="ac()">AC</button>
                 <button id="buttdel" onclick="del()">Del</button>
+
             </div>
         </section>
 

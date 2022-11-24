@@ -98,8 +98,11 @@ let output = document.getElementById('output').value
 let ans = eval(output)
 console.log(ans)
 document.getElementById('output').value =  output + " = " + ans
-
+// if(output == ""){
+//     ans = ""
 }
+
+
 
 function bracket1(){
     let output = document.getElementById('output').value += " ("

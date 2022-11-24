@@ -60,6 +60,10 @@ section button{
     text-align: center;
     padding-bottom: 5px;
 }
+#last button{
+    width: 17.5%;
+    /* text-align: center; */
+}
 
 
 /* MEDIA QUERY */
@@ -76,4 +80,9 @@ section button{
         font-size: 20px;
         width: 80%;
     }
+    #last button{
+        width: 27%;
+        /* text-align: center; */
+    }
+    
 }
